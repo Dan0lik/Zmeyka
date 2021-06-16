@@ -130,9 +130,6 @@ body, html {
     overflow: hidden;
 }
 
-.hidden-Sound {
-    display: none;
-}
 
 .buttons {
     position: absolute;
@@ -152,6 +149,8 @@ body, html {
     width: 45px;
     height: 45px;
     z-index: 45;
+   /* Убрал кнопки на время.*/
+    display: none;
 }
 button:focus {
     outline: none;
